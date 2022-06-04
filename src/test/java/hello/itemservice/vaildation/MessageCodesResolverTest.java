@@ -24,7 +24,7 @@ public class MessageCodesResolverTest {
         }
         assertThat(messageCodes).containsExactly(
                 "required.item.itemName"
-                , "required.item.itemName"
+                , "required.itemName"
                 , "required.java.lang.String"
                 , "required"
         );
